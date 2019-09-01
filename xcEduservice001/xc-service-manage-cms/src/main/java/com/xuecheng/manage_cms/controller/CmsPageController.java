@@ -40,7 +40,7 @@ public class CmsPageController implements CmsPageControllerApi {
         return queryResponseResult;*/
         //调用service
         int a;
-
+        int b;
 
         return pageService.findList(page,size,queryPageRequest);
     }
